@@ -1,0 +1,153 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#topbar{
+    width: 100%;
+    display: flex;
+}
+#loginpage{
+    width: 50%;
+    
+}
+#rigthlogin{
+    width: 50%;
+}
+#rigthlogin>img{
+width: 100%;
+height: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 10px;
+}
+#nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+
+}
+#links{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#leftlogin{
+    width: 80%;
+    margin: auto;
+}
+.int{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#int{
+width: 80%;
+font-size: 25px;
+padding: 10px;
+border-radius: 4px;
+}
+.int button{
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.city{
+    color: rgb(124, 121, 121);
+}
+
+h1+p{
+    font-size: 28px;
+    color: rgb(97, 96, 96);
+    margin-bottom: 50px;
+}
+#pop{
+    font-size: 25px;
+    color: gray;
+}
+#h3{
+    font-size: 23px;
+    color: rgb(62, 61, 61);
+}
+/*----------------------sign in page-----------*/
+
+#about{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 0px;
+    background-color: rgb(58, 34, 34);
+    padding-bottom: 70px;
+}
+#about>div{
+    width: 28%;
+    text-align: center;
+    color: white;
+}
+#about>div>p{
+    font-size: 20px;
+}
+/*-----------------infirmation-------------*/
+#download{
+    width: 100%;
+    display: flex;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+#leftD{
+width: 40%;
+padding: 30px;
+}
+#rightD{
+    width: 60%;
+    display: flex;
+}#logo{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}#logo>img{
+    width: 48%;
+}#rightD>img{
+    width: 48%;
+}#dow{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#rightD>img+img{
+    height: 100%;
+}
+#leftD h1{
+    font-size: 58px;
+}
+/*-------------------------download section------------*/
+
+#footer{
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    padding: 80px;
+}
+#foot{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+

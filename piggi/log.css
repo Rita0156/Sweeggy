@@ -1,0 +1,33 @@
+#left{
+    width: 50%;
+   
+    margin: auto;
+    font-size: 20px;
+    border: 2px solid orange;
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#logPage{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+#rigth{
+    width: 50%;
+    background-color: orange;
+    padding: 20px;
+}
+#left>#fan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    border: 2px solid black;
+}
+#fan>div>#im{
+    width: 20%;
+}
